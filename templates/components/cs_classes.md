@@ -1,6 +1,16 @@
 
-# Course Overview 
+# How to use this presentation
 
+## Course Descriptions
+- Course descriptions in this presentation are informal
+- For formal course descriptions, see the [APS Program of Studies](https://www.apsva.us/curriculum/program-of-studies/)
+
+## Course Flow Chart
+- Yellow boxes indicate which classes are avaiable at which schools
+- Solid arrows indicate recommended course order
+- Dotted arrows indicate other possible paths
+
+# Course Flow Chart 
 
 ## Overview
 - The next slide contains a flow chart
@@ -34,6 +44,7 @@ https://mermaid.live/edit#pako:eNp1klFvokAQx7_KZB_uSY3WpgEeLtmC1l6urTmTu-SgDyM7w
 - Python
 - Assume you have never studied computer programming
 - Must have already finished Algebra 1 with a C or better
+- End of course test: [PCEP Certification](https://pythoninstitute.org/pcep)
 
 
 ## Computer Programming - Units
@@ -84,7 +95,7 @@ https://mermaid.live/edit#pako:eNp1klFvokAQx7_KZB_uSY3WpgEeLtmC1l6urTmTu-SgDyM7w
 - Must have already finished Programming with a C or better
 - I'll assume you're already comfortable with Python
 - You should know variables, input/output, arithmetic, functions, loops, if/else statements
-
+- End of course test: [PCAP Certification](https://pythoninstitute.org/pcap)
 
 ## Computer Programming Advanced - Units
 +-------------------------+----------------+
@@ -118,6 +129,7 @@ https://mermaid.live/edit#pako:eNp1klFvokAQx7_KZB_uSY3WpgEeLtmC1l6urTmTu-SgDyM7w
 - Must have already finished Programming with a B or better
 - New Language! Java
 - Intense programming class
+- End of course test: AP Computer Science A Exam
 
 
 ## AP Computer Science A - Units
@@ -170,6 +182,7 @@ https://mermaid.live/edit#pako:eNp1klFvokAQx7_KZB_uSY3WpgEeLtmC1l6urTmTu-SgDyM7w
 - More well-rounded than CS A:
     - Some Python programming
     - Focuses on how computers work
+- End of course test: AP Computer Science Principles Exam
     
 
 ## APCSP - Units
@@ -216,19 +229,37 @@ https://mermaid.live/edit#pako:eNp1klFvokAQx7_KZB_uSY3WpgEeLtmC1l6urTmTu-SgDyM7w
 # Web Design and Multimedia
 
 ## Course Summary
+- Gives credit for these two classes at Virginia Community Colleges:
+  - [ITD 110: Web Page Design I](http://www.nvcc.edu/academic/coursecont/summaries/ITD110.pdf)
+  - [ITD 210: Web Page Design II](http://www.nvcc.edu/academic/coursecont/summaries/ITD210.pdf)
+
 
 # Database Design and Management
 
 ## Course Summary
+- Gives credit for these two classes at Virginia Community Colleges:
+  - [ITD 256: Advanced Database Management](http://www.nvcc.edu/academic/coursecont/summaries/ITD256.pdf)
+  - [ITP 225: Web Scripting Languages](https://www.nvcc.edu/academic/coursecont/summaries/itp225.pdf)
+
 
 # DE Computer Programming
 
 ## Course Summary
+- Gives credit for this class at Virginia Community Colleges:
+  - [CSC 221: Introduction to Problem Solving and Programming](https://courses.vccs.edu/courses/CSC221-IntroductiontoProblemSolvingandProgramming)
+
 
 # DE Computer Programming Intensified
 
 ## Course Summary
+- Gives credit for these two classes at Virginia Community Colleges:
+  - [CSC 222: Object-Oriented Programming](https://courses.vccs.edu/courses/CSC222-Object-Oriented%20Programming/detail)
+  - [CSC 208: Introduction to Discrete Structures](https://courses.vccs.edu/courses/CSC208-Introduction%20to%20Discrete%20Structures/detail)
+
 
 # DE Computer Programming Advanced
 
 ## Course Summary
+- Gives credit for these two classes at Virginia Community Colleges:
+  - [CSC 215: Computer Systems](https://courses.vccs.edu/courses/CSC215-ComputerSystems)
+  - [CSC 223: Data Structures and Analysis of Algorithms](https://courses.vccs.edu/courses/CSC223-Data%20Structures%20and%20Analysis%20of%20Algorithms/detail)

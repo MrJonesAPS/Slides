@@ -1,0 +1,95 @@
+<style>
+/*
+.slides {
+    font-size: 1em;
+}
+*/
+.reveal ul {
+    display: block;
+}
+.reveal ol {
+    display: block;
+}
+
+img {
+    max-height: 350px !important;
+}
+
+figcaption {
+    font-size: 0.6em !important;
+    font-style: italic !important;
+}
+
+.subtitle {
+    font-style: italic !important;
+}
+
+.date {
+    font-size: 0.75em !important;
+}
+
+.image-row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+  
+/* Create four equal columns that sits next to each other */
+.image-column {
+flex: 30%;
+max-width: 30%;
+padding: 0 4px;
+}
+
+.image-column img {
+margin-top: 8px;
+vertical-align: middle;
+width: 100%;
+}
+
+.image-column-2 {
+flex: 45%;
+max-width: 45%;
+padding: 0 4px;
+}
+
+.image-column-2 img {
+margin-top: 8px;
+vertical-align: middle;
+width: 100%;
+}
+
+.container{
+    display: flex;
+}
+.col{
+    flex: 1;
+}
+.col + .col {
+    border-left: solid 1px white;
+}
+
+
+pre.mermaid {
+    font-family: 'trebuchet ms', verdana, arial;
+}
+/*
+.mermaid svg {
+    padding: 0;
+    margin: 0;
+    min-height: 700px;
+    min-width:100%;
+    max-height:80%;
+    height:auto;
+}
+
+.mermaid svg .label-container{
+    container-type: inline-size;
+}
+
+.mermaid svg .nodeLabel{
+    font-size: 10px;
+}
+*/
+
+</style>

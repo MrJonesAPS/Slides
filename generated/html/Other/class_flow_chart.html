@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="">
+  <title>APS Computer Science Classes</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reset.css">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reveal.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js-drawer@0.1.3/dist/drawer.css">
+  <style>
+    .reveal .sourceCode {  /* see #7635 */
+      overflow: visible;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/theme/black.css" id="theme">
+  <style>
+  /*
+  .slides {
+      font-size: 1em;
+  }
+  */
+  .reveal ul {
+      display: block;
+  }
+  .reveal ol {
+      display: block;
+  }
+
+  img {
+      max-height: 350px !important;
+  }
+
+  figcaption {
+      font-size: 0.6em !important;
+      font-style: italic !important;
+  }
+
+  .subtitle {
+      font-style: italic !important;
+  }
+
+  .date {
+      font-size: 0.75em !important;
+  }
+
+  .image-row {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0 4px;
+  }
+    
+  /* Create four equal columns that sits next to each other */
+  .image-column {
+  flex: 30%;
+  max-width: 30%;
+  padding: 0 4px;
+  }
+
+  .image-column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  }
+
+  .image-column-2 {
+  flex: 45%;
+  max-width: 45%;
+  padding: 0 4px;
+  }
+
+  .image-column-2 img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  }
+
+  .container{
+      display: flex;
+  }
+  .col{
+      flex: 1;
+  }
+  .col + .col {
+      border-left: solid 1px white;
+  }
+
+
+  pre.mermaid {
+      font-family: 'trebuchet ms', verdana, arial;
+  }
+  /*
+  .mermaid svg {
+      padding: 0;
+      margin: 0;
+      min-height: 700px;
+      min-width:100%;
+      max-height:80%;
+      height:auto;
+  }
+
+  .mermaid svg .label-container{
+      container-type: inline-size;
+  }
+
+  .mermaid svg .nodeLabel{
+      font-size: 10px;
+  }
+  */
+
+  </style>
+  <script type="module">
+      import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+      $(document).ready(function () {
+    
+      
+      mermaid.initialize({ startOnLoad: true, theme: 'default' });
+  });
+      </script>
+  <script src=
+  "https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js">
+      </script>
+  <link rel="stylesheet" href="https://www.whscs.net/plugin/subtitles/subtitles.css">
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide">
+  <h1 class="title">APS Computer Science Classes</h1>
+  <p class="author"></p>
+  <p class="date">Mr. Jones | 2023</p>
+</section>
+
+<section>
+<section id="course-overview" class="title-slide slide level1">
+<h1>Course Overview</h1>
+
+</section>
+<section id="overview" class="slide level2">
+<h2>Overview</h2>
+<ul>
+<li>The next slide contains a flow chart</li>
+<li>Yellow boxes indicate which classes are avaiable at which
+schools</li>
+<li>Solid arrows indicate recommended course order</li>
+<li>Dotted arrows indicate other possible paths</li>
+<li>Note - to get out of this flow chart, click on the arrow buttons at
+the bottom-right of the screen</li>
+<li>You can use the keyboard arrow keys for the rest of the
+presentation</li>
+</ul>
+</section>
+<section data-background-iframe="https://mermaid.live/view#pako:eNp1ksFuozAQhl9l5MOekihpqgo4VHIhabradqNG2krFPTh4CpbARti0m43y7rUhm6ZRaiQ0zHwzP__AlmRaIIlI3vC6gF-PTDE1g-HwGm59yJRp130t1m1j0AC3sNAVwiortC4NU-DOgbqXQpQIuoGFzIuvkD80pWWO64YDTF46nZs01lXdWmxg2Wg3paqkyl_6FlSiD_o77TrilC4hXjlcqkzWJZo9fdOVk7MDgYo3rjIUX9jZfhTdZ2MYjnyaqU75vH0axyeuH37_oUCN0Znk1kF73SPbndo8TWZw1i18ovN--9-hcKcsKiNf5cGKP7dd1-LbrhP3h70eLDzhGhJ8w1LXFSoLS26Ld775VLhLPbLkOTrOyFzBD7hvSysrFJL333J-auNnmnDL19wcN3HlhniR45fxlwvIgFTYVFwK91NufZ0RWziakciFAl-502SEqZ1DeWv1aqMyEtmmxQFpa-H2n0juff9P1lw9a338SKIt-Uuiy1EYXl1eBcFkOp5OgwHZkCgYj8ZhcBGEQRBOwvHFdDcg_7ruye4D-aH9hg"
+          data-background-interactive  class="slide level2">
+  <h2></h2>
+<!--
+I wasn't able to get this chart to embed normally
+The font was overflowing the boxes, and I coudln't figure out why
+So I included the iframe version above
+To edit this chart, go here:
+https://mermaid.live/edit#pako:eNp1klFvokAQx7_KZB_uSY3WpgEeLtmC1l6urTmTu-SgDyM7wiawS9ilrWf87l3As9bYJSHDzG_mz39gx1ItiAUsq7HK4eevRCVqBsPhd7hrw0SZZt3XQt3UhgyghYUuCVZprnVhEgXuHKkHKURBoGtYyCz_DLWHx7zIaF0jwOS507mNQ11WjaUalrV2U8pSquy5byEl-qC_864jjPkSwpXDpUplVZA50LddObo4ELh4QZWS-MTODqP4IRvCcNSmE9UpX7bPw_DM9ePTbw7cGJ1KtA466J7Y7tTmcTSDi27hA5332_8KhXtlSRm5kUcr7bnruhZfdp25P-71aOEPrSGiFyp0VZKysESbv-L2Q-E-bpElZuQ4IzMF3-ChKawsSUjsv-X83MaPOEKLazSnTajckFbk9GXaywVswEqqS5TC_ZS7tp4wmzs6YYELBW3QaSYsUXuHYmP1aqtSFti6oQFrKuH2H0lsfbNgg4Vx2QrVX63L_5B7ZMGOvbHgeuT7N9c3njeZjqdTb8C2LPDGo7HvXXm-5_kTf3w13Q_Yv657sn8H-Q790Q
+-->
+</section>
+</section></section>
+<section>
+<section id="computer-programming" class="title-slide slide level1">
+<h1>Computer Programming</h1>
+
+</section>
+<section id="computer-programming---overview" class="slide level2">
+<h2>Computer Programming - Overview</h2>
+<ul>
+<li>Introduction</li>
+<li>Python</li>
+<li>Assume you have never studied computer programming</li>
+<li>Must have already finished Algebra 1 with a C or better</li>
+</ul>
+</section>
+<section id="computer-programming---units" class="slide level2">
+<h2>Computer Programming - Units</h2>
+<table style="width:60%;">
+<colgroup>
+<col style="width: 36%" />
+<col style="width: 23%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Unit # Name(s)</strong></th>
+<th><strong>Estimated Length/Dates</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Unit 0: Introduction to This Course</td>
+<td>2 Weeks</td>
+</tr>
+<tr class="even">
+<td>Unit 1: Introduction to Computer Programming</td>
+<td>2 Weeks</td>
+</tr>
+<tr class="odd">
+<td>Unit 2: Number Calculations and Data</td>
+<td>4 Weeks</td>
+</tr>
+<tr class="even">
+<td>Unit 3: Making Decisions</td>
+<td>4 Weeks</td>
+</tr>
+<tr class="odd">
+<td>Unit 4: Repetition and Loops</td>
+<td>3 Weeks</td>
+</tr>
+<tr class="even">
+<td>Unit 5: Graphics</td>
+<td>5 Weeks</td>
+</tr>
+<tr class="odd">
+<td>Unit 6: Functions</td>
+<td>3 Weeks</td>
+</tr>
+<tr class="even">
+<td>Unit 7: Arrays</td>
+<td>3 Weeks</td>
+</tr>
+<tr class="odd">
+<td>Unit 8: 2D Arrays</td>
+<td>1 Week</td>
+</tr>
+<tr class="even">
+<td>Unit 9: Internet</td>
+<td>2 Weeks</td>
+</tr>
+<tr class="odd">
+<td>Unit 10: Additional Topics in Computer Science</td>
+<td>3 Weeks</td>
+</tr>
+</tbody>
+</table>
+</section></section>
+<section>
+<section id="computer-programming-advanced"
+class="title-slide slide level1">
+<h1>Computer Programming Advanced</h1>
+
+</section>
+<section id="computer-programming-advanced-1" class="slide level2">
+<h2>Computer Programming Advanced</h2>
+<ul>
+<li>Second level class</li>
+<li>Must have already finished Programming with a C or better</li>
+<li>I’ll assume you’re already comfortable with Python</li>
+<li>You should know variables, input/output, arithmetic, functions,
+loops, if/else statements</li>
+</ul>
+</section>
+<section id="computer-programming-advanced---units"
+class="slide level2">
+<h2>Computer Programming Advanced - Units</h2>
+<table style="width:60%;">
+<colgroup>
+<col style="width: 36%" />
+<col style="width: 23%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Unit # Name(s)</strong></th>
+<th><strong>Estimated Length/Dates</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Unit 0: Introduction to This Course</td>
+<td>? Weeks</td>
+</tr>
+<tr class="even">
+<td>Unit 1: Python Review</td>
+<td>? Weeks</td>
+</tr>
+<tr class="odd">
+<td>Unit 2: Object Orientation</td>
+<td>? Weeks</td>
+</tr>
+<tr class="even">
+<td>Unit 3: Databases</td>
+<td>? Weeks</td>
+</tr>
+<tr class="odd">
+<td>Unit 4: Data Types and Recursion</td>
+<td>? Weeks</td>
+</tr>
+<tr class="even">
+<td>Unit 5: Web and Mobile Applications</td>
+<td>? Weeks</td>
+</tr>
+<tr class="odd">
+<td>Unit 6: Games</td>
+<td>? Weeks</td>
+</tr>
+</tbody>
+</table>
+</section></section>
+<section>
+<section id="ap-computer-science-a" class="title-slide slide level1">
+<h1>AP Computer Science A</h1>
+
+</section>
+<section id="ap-computer-science-a-1" class="slide level2">
+<h2>AP Computer Science A</h2>
+<ul>
+<li>Must have already finished Programming with a B or better</li>
+<li>New Language! Java</li>
+<li>Intense programming class</li>
+</ul>
+</section>
+<section id="ap-computer-science-a---units" class="slide level2">
+<h2>AP Computer Science A - Units</h2>
+<table style="width:60%;">
+<colgroup>
+<col style="width: 36%" />
+<col style="width: 23%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Unit # Name(s)</strong></th>
+<th><strong>Estimated Length/Dates</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Unit 0: Introduction to This Course</td>
+<td>? Weeks</td>
+</tr>
+<tr class="even">
+<td>Unit 1: Primitive Types</td>
+<td>? Weeks</td>
+</tr>
+<tr class="odd">
+<td>Unit 2: Using Objects</td>
+<td>? Weeks</td>
+</tr>
+<tr class="even">
+<td>Unit 3: Boolean Expressions and if Statements</td>
+<td>? Weeks</td>
+</tr>
+<tr class="odd">
+<td>Unit 4: Iteration</td>
+<td>? Weeks</td>
+</tr>
+<tr class="even">
+<td>Unit 5: Writing Classes</td>
+<td>? Weeks</td>
+</tr>
+<tr class="odd">
+<td>Unit 6: Arrays</td>
+<td>? Weeks</td>
+</tr>
+<tr class="even">
+<td>Unit 7: Array Lists</td>
+<td>? Weeks</td>
+</tr>
+<tr class="odd">
+<td>Unit 8: 2D Arrays</td>
+<td>? Week</td>
+</tr>
+<tr class="even">
+<td>Unit 9: Inheritance</td>
+<td>? Weeks</td>
+</tr>
+<tr class="odd">
+<td>Unit 10: Recursion</td>
+<td>? Weeks</td>
+</tr>
+<tr class="even">
+<td>Unit 10: Preparing For The AP Exam</td>
+<td>? Weeks</td>
+</tr>
+</tbody>
+</table>
+</section></section>
+<section>
+<section id="ap-computer-science-principles"
+class="title-slide slide level1">
+<h1>AP Computer Science Principles</h1>
+
+</section>
+<section id="ap-computer-science-principles-1" class="slide level2">
+<h2>AP Computer Science Principles</h2>
+<ul>
+<li>Intro-level class</li>
+<li>No pre-requisites. But talk to me if you haven’t taken Algebra
+1</li>
+<li>More well-rounded than CS A:
+<ul>
+<li>Some Python programming</li>
+<li>Focuses on how computers work</li>
+</ul></li>
+</ul>
+</section>
+<section id="apcsp---units" class="slide level2">
+<h2>APCSP - Units</h2>
+<table style="width:60%;">
+<colgroup>
+<col style="width: 36%" />
+<col style="width: 23%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Unit # Name(s)</strong></th>
+<th><strong>Estimated Length/Dates</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Unit 0: Introduction to This Course</td>
+<td>1 Week</td>
+</tr>
+<tr class="even">
+<td>Unit 1: Digital Information</td>
+<td>? Weeks</td>
+</tr>
+<tr class="odd">
+<td>Unit 2: The Internet</td>
+<td>? Weeks</td>
+</tr>
+<tr class="even">
+<td>Unit 3: Intro to Graphics</td>
+<td>? Weeks</td>
+</tr>
+<tr class="odd">
+<td>Unit 4: Functions, Mouse Events, and Conditionals</td>
+<td>? Weeks</td>
+</tr>
+<tr class="even">
+<td>Unit 5: Data</td>
+<td>? Weeks</td>
+</tr>
+<tr class="odd">
+<td>Unit 6: Groups, Lists, and Loops</td>
+<td>? Weeks</td>
+</tr>
+<tr class="even">
+<td>Unit 7: Complex Conditionals, More Events, Libraries</td>
+<td>? Week</td>
+</tr>
+<tr class="odd">
+<td>Unit 8: Cybersecurity</td>
+<td>? Weeks</td>
+</tr>
+<tr class="even">
+<td>Unit 9: Preparing For The AP Exam and Performance Task</td>
+<td>? Weeks</td>
+</tr>
+<tr class="odd">
+<td>Unit 10: Algorithms</td>
+<td>? Weeks</td>
+</tr>
+</tbody>
+</table>
+</section></section>
+<section>
+<section id="web-design-and-multimedia"
+class="title-slide slide level1">
+<h1>Web Design and Multimedia</h1>
+
+</section>
+<section id="course-summary" class="slide level2">
+<h2>Course Summary</h2>
+</section></section>
+<section>
+<section id="database-design-and-management"
+class="title-slide slide level1">
+<h1>Database Design and Management</h1>
+
+</section>
+<section id="course-summary-1" class="slide level2">
+<h2>Course Summary</h2>
+</section></section>
+<section>
+<section id="de-computer-programming" class="title-slide slide level1">
+<h1>DE Computer Programming</h1>
+
+</section>
+<section id="course-summary-2" class="slide level2">
+<h2>Course Summary</h2>
+</section></section>
+<section>
+<section id="de-computer-programming-intensified"
+class="title-slide slide level1">
+<h1>DE Computer Programming Intensified</h1>
+
+</section>
+<section id="course-summary-3" class="slide level2">
+<h2>Course Summary</h2>
+</section></section>
+<section>
+<section id="de-computer-programming-advanced"
+class="title-slide slide level1">
+<h1>DE Computer Programming Advanced</h1>
+
+</section>
+<section id="course-summary-4" class="slide level2">
+<h2>Course Summary</h2>
+</section></section>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/reveal.js@^4//dist/reveal.js"></script>
+
+  <!-- reveal.js plugins -->
+  <script src="https://unpkg.com/reveal.js@^4//plugin/notes/notes.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/search/search.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/zoom/zoom.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js-drawer@0.1.3/dist/drawer.js"></script>
+
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+        //dependencies: [
+        //    { src: 'https://www.whscs.net/plugin/subtitles/subtitles.js', async: true }
+        //],
+
+        // Display controls in the bottom right corner
+        controls: true,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: true,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'bottom-right',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: false,
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: false,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: true,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'default',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: true,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'slide',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'fade',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 50,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1920,
+
+        height: 1080,
+
+        // reveal.js plugins
+        plugins: [
+          RevealNotes,
+          RevealSearch,
+          RevealZoom,
+          RevealDrawer
+        ]
+      });
+    </script>
+    </body>
+</html>

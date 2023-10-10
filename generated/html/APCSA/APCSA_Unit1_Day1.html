@@ -132,7 +132,7 @@
       $(document).ready(function () {
     
       
-      mermaid.initialize({ startOnLoad: true, theme: 'default',htmlLabels: true });
+      mermaid.initialize({ startOnLoad: true, theme: 'default' });
   });
       </script>
   <script src=
@@ -167,53 +167,29 @@
 </section>
 <section id="overview" class="slide level2">
 <h2>Overview</h2>
-<!--
-```{=html}
-
+<ul>
+<li>The next slide contains a flow chart</li>
+<li>Yellow boxes indicate which classes are avaiable at which
+schools</li>
+<li>Solid arrows indicate recommended course order</li>
+<li>Dotted arrows indicate other possible paths</li>
+<li>Note - to get out of this flow chart, click on the arrow buttons at
+the bottom-right of the screen</li>
+<li>You can use the keyboard arrow keys for the rest of the
+presentation</li>
+</ul>
+</section>
 <section data-background-iframe="https://mermaid.live/view#pako:eNp1ksFuozAQhl9l5MOekihpqgo4VHIhabradqNG2krFPTh4CpbARti0m43y7rUhm6ZRaiQ0zHwzP__AlmRaIIlI3vC6gF-PTDE1g-HwGm59yJRp130t1m1j0AC3sNAVwiortC4NU-DOgbqXQpQIuoGFzIuvkD80pWWO64YDTF46nZs01lXdWmxg2Wg3paqkyl_6FlSiD_o77TrilC4hXjlcqkzWJZo9fdOVk7MDgYo3rjIUX9jZfhTdZ2MYjnyaqU75vH0axyeuH37_oUCN0Znk1kF73SPbndo8TWZw1i18ovN--9-hcKcsKiNf5cGKP7dd1-LbrhP3h70eLDzhGhJ8w1LXFSoLS26Ld775VLhLPbLkOTrOyFzBD7hvSysrFJL333J-auNnmnDL19wcN3HlhniR45fxlwvIgFTYVFwK91NufZ0RWziakciFAl-502SEqZ1DeWv1aqMyEtmmxQFpa-H2n0juff9P1lw9a338SKIt-Uuiy1EYXl1eBcFkOp5OgwHZkCgYj8ZhcBGEQRBOwvHFdDcg_7ruye4D-aH9hg"
           data-background-interactive  class="slide level2">
   <h2></h2>
-</section>
-```
--->
 <!--
-This one is embedding weirdly, it's hard to read
+I wasn't able to get this chart to embed normally
+The font was overflowing the boxes, and I coudln't figure out why
 So I included the iframe version above
 To edit this chart, go here:
 https://mermaid.live/edit#pako:eNp1klFvokAQx7_KZB_uSY3WpgEeLtmC1l6urTmTu-SgDyM7wiawS9ilrWf87l3As9bYJSHDzG_mz39gx1ItiAUsq7HK4eevRCVqBsPhd7hrw0SZZt3XQt3UhgyghYUuCVZprnVhEgXuHKkHKURBoGtYyCz_DLWHx7zIaF0jwOS507mNQ11WjaUalrV2U8pSquy5byEl-qC_864jjPkSwpXDpUplVZA50LddObo4ELh4QZWS-MTODqP4IRvCcNSmE9UpX7bPw_DM9ePTbw7cGJ1KtA466J7Y7tTmcTSDi27hA5332_8KhXtlSRm5kUcr7bnruhZfdp25P-71aOEPrSGiFyp0VZKysESbv-L2Q-E-bpElZuQ4IzMF3-ChKawsSUjsv-X83MaPOEKLazSnTajckFbk9GXaywVswEqqS5TC_ZS7tp4wmzs6YYELBW3QaSYsUXuHYmP1aqtSFti6oQFrKuH2H0lsfbNgg4Vx2QrVX63L_5B7ZMGOvbHgeuT7N9c3njeZjqdTb8C2LPDGo7HvXXm-5_kTf3w13Q_Yv657sn8H-Q790Q
 -->
-<!-- .slide: data-auto-animate -->
-<div class="mermaid">
-graph LR
-
-E --> G
-
-
-subgraph Courses at Home Schools
-    subgraph Middle or High Schools
-        A[Algebra  1] --> B[Computer Programming]
-    end
-    
-    A --> C[AP CS Principles]
-    B --> D[Computer Programming Advanced]
-    B --> E[AP CS A]
-    C -.-> E
-end
-
-subgraph Courses at ACC
-    subgraph NOVA Associates Program
-        A --> F[DE Computer Programming] 
-        F --> G[DE Computer Programming Intensified]
-        G --> H[DE Computer Programming Advanced]
-    end
-    subgraph Web Development Pathway
-        I[Web Page Design & Multimedia] --> F
-        F --> J[Database Design & Management]
-    end
-
-
-end
-</div>
+</section>
 </section></section>
 <section>
 <section id="computer-programming" class="title-slide slide level1">

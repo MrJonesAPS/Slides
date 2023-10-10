@@ -49,6 +49,13 @@
 
 - Read the instructions that it prints
 
+
+# Quiz Next Class
+
+## Quiz - using custom objects
+- I will give you a class, and a list of functions that the class has
+- You will write the code to create an object of the class, and call some functions
+
 # Project
 
 ## Project Introduction

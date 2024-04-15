@@ -44,10 +44,11 @@
   .reveal ol {
       display: block;
   }
-
+  /*
   img {
       max-height: 350px !important;
   }
+  */
 
   figcaption {
       font-size: 0.6em !important;
@@ -132,7 +133,7 @@
       $(document).ready(function () {
     
       
-      mermaid.initialize({ startOnLoad: true, theme: 'default',htmlLabels: true });
+      mermaid.initialize({ startOnLoad: true, theme: 'default' });
   });
       </script>
   <script src=
@@ -427,7 +428,9 @@ be in your studentview the whole quarter</li>
         width: 1920,
 
         height: 1080,
-
+        drawer: {
+pathSize: 1, // (optional) path size in px, default 4
+  },
         // reveal.js plugins
         plugins: [
           RevealNotes,

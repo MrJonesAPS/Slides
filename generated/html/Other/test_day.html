@@ -44,10 +44,11 @@
   .reveal ol {
       display: block;
   }
-
+  /*
   img {
       max-height: 350px !important;
   }
+  */
 
   figcaption {
       font-size: 0.6em !important;
@@ -162,7 +163,8 @@ will need your computer. Close everything except a single Chrome tab</p>
 <div class="image-column">
 <p>The Test:</p>
 <ul>
-<li>The test is posted to Canvas</li>
+<li>The test is on paper</li>
+<li>Mark your version on the bubble sheet</li>
 <li>Answer the MCQ’s on the bubble sheet</li>
 <li>Answer the FRQ’s on the back of the bubble sheet</li>
 <li>You can write in the margins</li>
@@ -172,16 +174,15 @@ will need your computer. Close everything except a single Chrome tab</p>
 <p>When you finish:</p>
 <ul>
 <li>Turn the test in to Mr. Jones</li>
-<li>Make sure you’ve submitted the rest of the assignments from this
-unit</li>
+<li>See fun activity in Canvas</li>
 </ul>
 </div>
 <div class="image-column">
 <p>Test Rules:</p>
 <ul>
 <li>Please don’t cheat</li>
-<li>Don’t download/photograph/screenshot the test</li>
 <li>No calculators or phones</li>
+<li>Write legibly - I can only grade what I can read!</li>
 </ul>
 </div>
 </div>
@@ -357,7 +358,9 @@ unit</li>
         width: 1920,
 
         height: 1080,
-
+        drawer: {
+pathSize: 1, // (optional) path size in px, default 4
+  },
         // reveal.js plugins
         plugins: [
           RevealNotes,

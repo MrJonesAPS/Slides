@@ -44,10 +44,11 @@
   .reveal ol {
       display: block;
   }
-
+  /*
   img {
       max-height: 350px !important;
   }
+  */
 
   figcaption {
       font-size: 0.6em !important;
@@ -132,7 +133,7 @@
       $(document).ready(function () {
     
       
-      mermaid.initialize({ startOnLoad: true, theme: 'default',htmlLabels: true });
+      mermaid.initialize({ startOnLoad: true, theme: 'default' });
   });
       </script>
   <script src=
@@ -168,7 +169,7 @@
 <section id="would-you-like-to-join-coding-club" class="slide level2">
 <h2>Would you like to join Coding Club?</h2>
 <figure>
-<img data-src="../images/qr_coding_club.png" alt="Scan Me!" />
+<img data-src="../../images/qr_coding_club.png" alt="Scan Me!" />
 <figcaption aria-hidden="true">Scan Me!</figcaption>
 </figure>
 </section></section>
@@ -393,7 +394,9 @@ to a question with two possible answers</li>
         width: 1920,
 
         height: 1080,
-
+        drawer: {
+pathSize: 1, // (optional) path size in px, default 4
+  },
         // reveal.js plugins
         plugins: [
           RevealNotes,

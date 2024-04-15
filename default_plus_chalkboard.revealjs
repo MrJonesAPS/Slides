@@ -309,7 +309,9 @@ $if(mathjax)$
           },
         },
 $endif$
-
+        drawer: {
+pathSize: 1, // (optional) path size in px, default 4
+  },
         // reveal.js plugins
         plugins: [
 $if(mathjax)$

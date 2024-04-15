@@ -15,7 +15,7 @@ Turn and discuss with a partner: what is a computer?
 # Coding Club
 
 ## Would you like to join Coding Club?
-![Scan Me!](../images/qr_coding_club.png)
+![Scan Me!](../../images/qr_coding_club.png)
 
 
 # Activity 1 - What is a computer?

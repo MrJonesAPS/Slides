@@ -44,10 +44,11 @@
   .reveal ol {
       display: block;
   }
-
+  /*
   img {
       max-height: 350px !important;
   }
+  */
 
   figcaption {
       font-size: 0.6em !important;
@@ -132,7 +133,7 @@
       $(document).ready(function () {
     
       
-      mermaid.initialize({ startOnLoad: true, theme: 'default',htmlLabels: true });
+      mermaid.initialize({ startOnLoad: true, theme: 'default' });
   });
       </script>
   <script src=
@@ -165,59 +166,55 @@
 </figure>
 </section></section>
 <section>
-<section id="course-overview" class="title-slide slide level1">
-<h1>Course Overview</h1>
+<section id="how-to-use-this-presentation"
+class="title-slide slide level1">
+<h1>How to use this presentation</h1>
+
+</section>
+<section id="course-descriptions" class="slide level2">
+<h2>Course Descriptions</h2>
+<ul>
+<li>Course descriptions in this presentation are informal</li>
+<li>For formal course descriptions, see the <a
+href="https://www.apsva.us/curriculum/program-of-studies/">APS Program
+of Studies</a></li>
+</ul>
+</section>
+<section id="course-flow-chart" class="slide level2">
+<h2>Course Flow Chart</h2>
+<ul>
+<li>Yellow boxes indicate which classes are avaiable at which
+schools</li>
+<li>Solid arrows indicate recommended course order</li>
+<li>Dotted arrows indicate other possible paths</li>
+</ul>
+</section></section>
+<section>
+<section id="course-flow-chart-1" class="title-slide slide level1">
+<h1>Course Flow Chart</h1>
 
 </section>
 <section id="overview" class="slide level2">
 <h2>Overview</h2>
-<!--
-```{=html}
-
+<ul>
+<li>The next slide contains a flow chart</li>
+<li>Note - to get out of this flow chart, click on the arrow buttons at
+the bottom-right of the screen</li>
+<li>You can use the keyboard arrow keys for the rest of the
+presentation</li>
+</ul>
+</section>
 <section data-background-iframe="https://mermaid.live/view#pako:eNp1ksFuozAQhl9l5MOekihpqgo4VHIhabradqNG2krFPTh4CpbARti0m43y7rUhm6ZRaiQ0zHwzP__AlmRaIIlI3vC6gF-PTDE1g-HwGm59yJRp130t1m1j0AC3sNAVwiortC4NU-DOgbqXQpQIuoGFzIuvkD80pWWO64YDTF46nZs01lXdWmxg2Wg3paqkyl_6FlSiD_o77TrilC4hXjlcqkzWJZo9fdOVk7MDgYo3rjIUX9jZfhTdZ2MYjnyaqU75vH0axyeuH37_oUCN0Znk1kF73SPbndo8TWZw1i18ovN--9-hcKcsKiNf5cGKP7dd1-LbrhP3h70eLDzhGhJ8w1LXFSoLS26Ld775VLhLPbLkOTrOyFzBD7hvSysrFJL333J-auNnmnDL19wcN3HlhniR45fxlwvIgFTYVFwK91NufZ0RWziakciFAl-502SEqZ1DeWv1aqMyEtmmxQFpa-H2n0juff9P1lw9a338SKIt-Uuiy1EYXl1eBcFkOp5OgwHZkCgYj8ZhcBGEQRBOwvHFdDcg_7ruye4D-aH9hg"
           data-background-interactive  class="slide level2">
   <h2></h2>
-</section>
-```
--->
 <!--
-This one is embedding weirdly, it's hard to read
+I wasn't able to get this chart to embed normally
+The font was overflowing the boxes, and I coudln't figure out why
 So I included the iframe version above
 To edit this chart, go here:
 https://mermaid.live/edit#pako:eNp1klFvokAQx7_KZB_uSY3WpgEeLtmC1l6urTmTu-SgDyM7wiawS9ilrWf87l3As9bYJSHDzG_mz39gx1ItiAUsq7HK4eevRCVqBsPhd7hrw0SZZt3XQt3UhgyghYUuCVZprnVhEgXuHKkHKURBoGtYyCz_DLWHx7zIaF0jwOS507mNQ11WjaUalrV2U8pSquy5byEl-qC_864jjPkSwpXDpUplVZA50LddObo4ELh4QZWS-MTODqP4IRvCcNSmE9UpX7bPw_DM9ePTbw7cGJ1KtA466J7Y7tTmcTSDi27hA5332_8KhXtlSRm5kUcr7bnruhZfdp25P-71aOEPrSGiFyp0VZKysESbv-L2Q-E-bpElZuQ4IzMF3-ChKawsSUjsv-X83MaPOEKLazSnTajckFbk9GXaywVswEqqS5TC_ZS7tp4wmzs6YYELBW3QaSYsUXuHYmP1aqtSFti6oQFrKuH2H0lsfbNgg4Vx2QrVX63L_5B7ZMGOvbHgeuT7N9c3njeZjqdTb8C2LPDGo7HvXXm-5_kTf3w13Q_Yv657sn8H-Q790Q
 -->
-<!-- .slide: data-auto-animate -->
-<div class="mermaid">
-graph LR
-
-E --> G
-
-
-subgraph Courses at Home Schools
-    subgraph Middle or High Schools
-        A[Algebra  1] --> B[Computer Programming]
-    end
-    
-    A --> C[AP CS Principles]
-    B --> D[Computer Programming Advanced]
-    B --> E[AP CS A]
-    C -.-> E
-end
-
-subgraph Courses at ACC
-    subgraph NOVA Associates Program
-        A --> F[DE Computer Programming] 
-        F --> G[DE Computer Programming Intensified]
-        G --> H[DE Computer Programming Advanced]
-    end
-    subgraph Web Development Pathway
-        I[Web Page Design & Multimedia] --> F
-        F --> J[Database Design & Management]
-    end
-
-
-end
-</div>
+</section>
 </section></section>
 <section>
 <section id="computer-programming" class="title-slide slide level1">
@@ -231,6 +228,8 @@ end
 <li>Python</li>
 <li>Assume you have never studied computer programming</li>
 <li>Must have already finished Algebra 1 with a C or better</li>
+<li>End of course test: <a href="https://pythoninstitute.org/pcep">PCEP
+Certification</a></li>
 </ul>
 </section>
 <section id="computer-programming---units" class="slide level2">
@@ -308,6 +307,8 @@ class="title-slide slide level1">
 <li>I’ll assume you’re already comfortable with Python</li>
 <li>You should know variables, input/output, arithmetic, functions,
 loops, if/else statements</li>
+<li>End of course test: <a href="https://pythoninstitute.org/pcap">PCAP
+Certification</a></li>
 </ul>
 </section>
 <section id="computer-programming-advanced---units"
@@ -367,6 +368,7 @@ class="slide level2">
 <li>Must have already finished Programming with a B or better</li>
 <li>New Language! Java</li>
 <li>Intense programming class</li>
+<li>End of course test: AP Computer Science A Exam</li>
 </ul>
 </section>
 <section id="ap-computer-science-a---units" class="slide level2">
@@ -451,6 +453,7 @@ class="title-slide slide level1">
 <li>Some Python programming</li>
 <li>Focuses on how computers work</li>
 </ul></li>
+<li>End of course test: AP Computer Science Principles Exam</li>
 </ul>
 </section>
 <section id="apcsp---units" class="slide level2">
@@ -522,6 +525,17 @@ class="title-slide slide level1">
 </section>
 <section id="course-summary" class="slide level2">
 <h2>Course Summary</h2>
+<ul>
+<li>Gives credit for these two classes at Virginia Community Colleges:
+<ul>
+<li><a
+href="http://www.nvcc.edu/academic/coursecont/summaries/ITD110.pdf">ITD
+110: Web Page Design I</a></li>
+<li><a
+href="http://www.nvcc.edu/academic/coursecont/summaries/ITD210.pdf">ITD
+210: Web Page Design II</a></li>
+</ul></li>
+</ul>
 </section></section>
 <section>
 <section id="database-design-and-management"
@@ -531,6 +545,17 @@ class="title-slide slide level1">
 </section>
 <section id="course-summary-1" class="slide level2">
 <h2>Course Summary</h2>
+<ul>
+<li>Gives credit for these two classes at Virginia Community Colleges:
+<ul>
+<li><a
+href="http://www.nvcc.edu/academic/coursecont/summaries/ITD256.pdf">ITD
+256: Advanced Database Management</a></li>
+<li><a
+href="https://www.nvcc.edu/academic/coursecont/summaries/itp225.pdf">ITP
+225: Web Scripting Languages</a></li>
+</ul></li>
+</ul>
 </section></section>
 <section>
 <section id="de-computer-programming" class="title-slide slide level1">
@@ -539,6 +564,14 @@ class="title-slide slide level1">
 </section>
 <section id="course-summary-2" class="slide level2">
 <h2>Course Summary</h2>
+<ul>
+<li>Gives credit for this class at Virginia Community Colleges:
+<ul>
+<li><a
+href="https://courses.vccs.edu/courses/CSC221-IntroductiontoProblemSolvingandProgramming">CSC
+221: Introduction to Problem Solving and Programming</a></li>
+</ul></li>
+</ul>
 </section></section>
 <section>
 <section id="de-computer-programming-intensified"
@@ -548,6 +581,17 @@ class="title-slide slide level1">
 </section>
 <section id="course-summary-3" class="slide level2">
 <h2>Course Summary</h2>
+<ul>
+<li>Gives credit for these two classes at Virginia Community Colleges:
+<ul>
+<li><a
+href="https://courses.vccs.edu/courses/CSC222-Object-Oriented%20Programming/detail">CSC
+222: Object-Oriented Programming</a></li>
+<li><a
+href="https://courses.vccs.edu/courses/CSC208-Introduction%20to%20Discrete%20Structures/detail">CSC
+208: Introduction to Discrete Structures</a></li>
+</ul></li>
+</ul>
 </section></section>
 <section>
 <section id="de-computer-programming-advanced"
@@ -557,12 +601,18 @@ class="title-slide slide level1">
 </section>
 <section id="course-summary-4" class="slide level2">
 <h2>Course Summary</h2>
-</section></section>
-<section>
-<section id="todays-activity---goal-setting"
-class="title-slide slide level1">
-<h1>Today’s activity - Goal Setting</h1>
-
+<ul>
+<li>Gives credit for these two classes at Virginia Community Colleges:
+<ul>
+<li><a
+href="https://courses.vccs.edu/courses/CSC215-ComputerSystems">CSC 215:
+Computer Systems</a></li>
+<li><a
+href="https://courses.vccs.edu/courses/CSC223-Data%20Structures%20and%20Analysis%20of%20Algorithms/detail">CSC
+223: Data Structures and Analysis of Algorithms</a> # Today’s activity -
+Goal Setting</li>
+</ul></li>
+</ul>
 </section>
 <section id="google-jamboard" class="slide level2">
 <h2>Google Jamboard</h2>
@@ -746,7 +796,9 @@ about programming!</p>
         width: 1920,
 
         height: 1080,
-
+        drawer: {
+pathSize: 1, // (optional) path size in px, default 4
+  },
         // reveal.js plugins
         plugins: [
           RevealNotes,

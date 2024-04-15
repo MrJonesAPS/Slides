@@ -10,10 +10,11 @@
 .reveal ol {
     display: block;
 }
-
+/*
 img {
     max-height: 350px !important;
 }
+*/
 
 figcaption {
     font-size: 0.6em !important;

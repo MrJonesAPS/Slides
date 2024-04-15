@@ -88,9 +88,6 @@ timeline
 
 ## Overview
 - The next slide contains a flow chart
-- Yellow boxes indicate which classes are avaiable at which schools
-- Solid arrows indicate recommended course order
-- Dotted arrows indicate other possible paths
 - Note - to get out of this flow chart, click on the arrow buttons at the bottom-right of the screen
 - You can use the keyboard arrow keys for the rest of the presentation
 

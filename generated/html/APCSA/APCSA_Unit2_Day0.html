@@ -44,10 +44,11 @@
   .reveal ol {
       display: block;
   }
-
+  /*
   img {
       max-height: 350px !important;
   }
+  */
 
   figcaption {
       font-size: 0.6em !important;
@@ -373,7 +374,9 @@ other programming language, write an example.</p>
         width: 1920,
 
         height: 1080,
-
+        drawer: {
+pathSize: 1, // (optional) path size in px, default 4
+  },
         // reveal.js plugins
         plugins: [
           RevealNotes,

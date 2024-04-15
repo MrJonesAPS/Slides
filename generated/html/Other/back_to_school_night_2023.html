@@ -44,10 +44,11 @@
   .reveal ol {
       display: block;
   }
-
+  /*
   img {
       max-height: 350px !important;
   }
+  */
 
   figcaption {
       font-size: 0.6em !important;
@@ -295,10 +296,6 @@ schools</li>
 <h2>Overview</h2>
 <ul>
 <li>The next slide contains a flow chart</li>
-<li>Yellow boxes indicate which classes are avaiable at which
-schools</li>
-<li>Solid arrows indicate recommended course order</li>
-<li>Dotted arrows indicate other possible paths</li>
 <li>Note - to get out of this flow chart, click on the arrow buttons at
 the bottom-right of the screen</li>
 <li>You can use the keyboard arrow keys for the rest of the
@@ -1097,7 +1094,9 @@ class="title-slide slide level1">
         width: 1920,
 
         height: 1080,
-
+        drawer: {
+pathSize: 1, // (optional) path size in px, default 4
+  },
         // reveal.js plugins
         plugins: [
           RevealNotes,

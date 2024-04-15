@@ -1,69 +1,29 @@
 {% with class_title="Advanced Programming </br>
-    Practice with Classes" %}
+    Making custom classes" %}
 {% include 'components/title_slide.md' %}
 {% endwith %}
 
 {% include2 './warmup.md' %}
 
 
-# Announcements
+{% include 'components/announcements_oct_2023.md' %}
 
 
-## Announcements
-- PSAT Tomorrow
-- End of the year, PCAP
-
-![PCAP Exam](../../images/pcap.png)
-
-
-# Today - Objects
-
-## An object is a collection of information and functions
-* In Python, everything is an object!
-* An object has information
-* An object has behavior
-* In this unit, we'll make our own objects
-
-## You already know some objects
-* String: Has length, and functions like upper()
-
-        myString = "asdf"
-        print(myString.upper())
-
-## Objects belong to classes
-* Class - the "type" of the object
-* All objects in the same class have the same information and behavior
-
-## Let's play a game
-- From Canvas, download the appropriate script
-- We'll play this game in the Python interpreter
-
-## To play the game
-- From the command line, run with this command:
-
-    python3 -i starfish_setup.py
-
-    or
-
-    python3 -i vampire_setup.py
-
-- Read the instructions that it prints
+## Today's class is short, and no WP:
+- 1st Period: 8:20 - 9:30 (70 mins)
+- 3rd Period: 9:35 - 10:20 (45 mins)
+- 5th Period: 
+    - 10:25 - 11:05 (40 mins)
+    - B Lunch: 11:10 - 11:45 (35 mins)
+    - 11:50 - 12:25 (30 mins)
+- 7th Period: 12:30 - 1:40 (70 mins)
+- Pep Rally: 1:55 - 3:10
+    - Go straight home from pep rally - can't come back into the building!
 
 
-# Quiz Next Class
+# Today - Making our own classes
 
-## Quiz - using custom objects
-- I will give you a class, and a list of functions that the class has
-- You will write the code to create an object of the class, and call some functions
-
-# Project
-
-## Project Introduction
-- You'll make your own Python interpreter game
-- We'll work on this project the whole unit
-- Today's goal - come up with an idea
-
-
+## Let's write the lion and sloth classes
 
 
 

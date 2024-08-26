@@ -65,21 +65,31 @@
 
   .image-row {
       display: flex;
-      flex-wrap: wrap;
+      flex-direction: row;
+      flex-wrap: nowrap;
       padding: 0 4px;
+  }
+
+  .image-row img{
+      margin-top: 8px;
+      vertical-align: middle;
+      width: auto;
+      height: 500px;
   }
     
   /* Create four equal columns that sits next to each other */
   .image-column {
   flex: 30%;
   max-width: 30%;
+  max-height: 100%;
   padding: 0 4px;
   }
 
   .image-column img {
   margin-top: 8px;
   vertical-align: middle;
-  width: 100%;
+  width: auto;
+  max-height: 400px;
   }
 
   .image-column-2 {
@@ -210,25 +220,25 @@ class="slide level2">
 component</h2>
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th>Responsibility</th>
 <th>Hardware Component</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Allow computers to connect with wires</td>
 <td>Switch</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Allow computers to connect wirelessly</td>
 <td>Wireless Access Point</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Pass messages from one computer to another</td>
 <td>Router</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Communicate with the broader internet</td>
 <td>Modem</td>
 </tr>

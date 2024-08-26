@@ -66,11 +66,31 @@ timeline
 ## 2012 : Second internship - Databases at NASA
 
 ## 2013 : Graduated UVA, started my first job
+![My first job](../images/apt_potty.jpg)
+
+## 2013 : My actual first job
+![APT](../images/wapo_apt.png)
 
 ## 2021 : Masters Degree - Systems Engineering at Virginia Tech
 
 ## 2022 : Started teaching at Wakefield
 ![Cody on the first day of school 2022](../images/cody_first_day.jpeg)
+
+## 2024 : Today
+![Cody on the first day of school 2024](../images/cody_owl.jpg)
+
+
+## I'm still learning
+Classes I took this summer:
+
+- Philosophy and Foundations of Education
+- Risk Management for STEM classrooms
+- Academic Literacy for STEM classrooms
+- Assessments of and for Learning
+- Dynamic Programming, Greedy Algorithms
+- Approximation and Linear Programming
+- Advanced Data Structures and Quantum Algorithms
+
 
 
 # How to use this presentation

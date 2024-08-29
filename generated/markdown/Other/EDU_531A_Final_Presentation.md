@@ -5,7 +5,7 @@
 
 # About Me
 
-## Hi - I'm Mr. Jones
+## Hi - I'm Chris
 :::{class="image-row"}
 :::{class="image-column"}
 :::{.element: class="fragment fade-in"}
@@ -59,10 +59,13 @@ timeline
 
 ## 2009 : Started my CS Major at UVA
 - I loved UVA
+![ecoMOD](../images/ecomod.png)
 
 ## 2010 : First internship - Java
 
 ## 2012 : Second internship - Databases at NASA
+![RBSP](../images/rbsp.jpg)
+
 
 ## 2013 : Graduated UVA, started my first job
 ![My first job](../images/apt_potty.jpg)
@@ -103,7 +106,7 @@ I wasn't able to get this chart to embed normally
 The font was overflowing the boxes, and I coudln't figure out why
 So I included the iframe version above
 To edit this chart, go here:
-https://mermaid.live/edit#pako:eNp1klFvokAQx7_KZB_uSY3WpgEeLtmC1l6urTmTu-SgDyM7wiawS9ilrWf87l3As9bYJSHDzG_mz39gx1ItiAUsq7HK4eevRCVqBsPhd7hrw0SZZt3XQt3UhgyghYUuCVZprnVhEgXuHKkHKURBoGtYyCz_DLWHx7zIaF0jwOS507mNQ11WjaUalrV2U8pSquy5byEl-qC_864jjPkSwpXDpUplVZA50LddObo4ELh4QZWS-MTODqP4IRvCcNSmE9UpX7bPw_DM9ePTbw7cGJ1KtA466J7Y7tTmcTSDi27hA5332_8KhXtlSRm5kUcr7bnruhZfdp25P-71aOEPrSGiFyp0VZKysESbv-L2Q-E-bpElZuQ4IzMF3-ChKawsSUjsv-X83MaPOEKLazSnTajckFbk9GXaywVswEqqS5TC_ZS7tp4wmzs6YYELBW3QaSYsUXuHYmP1aqtSFti6oQFrKuH2H0lsfbNgg4Vx2QrVX63L_5B7ZMGOvbHgeuT7N9c3njeZjqdTb8C2LPDGo7HvXXm-5_kTf3w13Q_Yv657sn8H-Q790Q
+https://mermaid.live/edit#pako:eNp1kt9vmzAQx_-Vkx_2lFRJwxDiYZILaZNp3aJG2qRBHxx8BWvYRrbplkX532cgo22U2hI6nz_343v4QArNkcSkNKyp4MtDrnK1hOn0E9zlivbGuvPlyra7AUp0ayxaYA5WWiJsi0rr2uYK_Bqpe8F5jaANrERZvYW6RTNal7gzDGD-2Ne5yRItm9ahgY3RPouUQpWPQwgqPhjDd-gsyegGkq3HhSpEU6M90Tf9dXoxIVD-zFSB_A27PKWi3tvXuiyYJsmZzq_fvlOg1upCMOehU6UXoevsB-5gw0qEFK0oFXyA-7Z2QiIXbJB-m6VLuKgeXhLdDr_lPRTWyqGy4kmM0rp110et3o06m8Y451Fg132Kz1jrRqJyXomrfrP9eV-fs5Q5tmP2tUymvOwu6nX2bnuDTIhEI5ng_vkduvucuMrTOYm9yZn5lZNcHT3HWqe3e1WQ2JkWJ8TotqxI_MRq609tw_3kU8E6Tf-RhqmfWssR8mcSH8gfEn-8CqNgEcyjKJxFfl_jdB5MyJ7E3nU1C6-DRThbREEQhdFxQv72WebHf-x6_xQ 
 -->
 ```
 

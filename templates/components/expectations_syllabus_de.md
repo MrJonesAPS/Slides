@@ -62,6 +62,7 @@ Practice professional communication (I'm not your "bruh")
 - No Retakes
 - No Late Work
 - Different grades
+- Drop/Withdrawal Rules
 - Different accommodation rules
 
 ## "Flipped" Classroom

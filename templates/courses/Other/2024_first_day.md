@@ -1,6 +1,6 @@
 {% with class_title="Welcome!"
     ,unit_and_day=""
-    ,course="Please find your nametag and take a seat anywhere"
+    ,course="Please take a seat anywhere"
 %}
 {% include 'components/title_slide.md' %}
 {% endwith %}

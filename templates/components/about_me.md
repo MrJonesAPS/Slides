@@ -1,7 +1,7 @@
 
 # About Me
 
-## Hi - I'm Mr. Jones
+## Hi - I'm Chris
 :::{class="image-row"}
 :::{class="image-column"}
 :::{.element: class="fragment fade-in"}
@@ -55,10 +55,13 @@ timeline
 
 ## 2009 : Started my CS Major at UVA
 - I loved UVA
+![ecoMOD](../images/ecomod.png)
 
 ## 2010 : First internship - Java
 
 ## 2012 : Second internship - Databases at NASA
+![RBSP](../images/rbsp.jpg)
+
 
 ## 2013 : Graduated UVA, started my first job
 ![My first job](../images/apt_potty.jpg)

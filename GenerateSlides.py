@@ -44,7 +44,7 @@ transport = paramiko.Transport((host, port))
 
 # password = os.getenv('MY_PASSWORD')
 # username = os.getenv('MY_USERNAME')
-password = "NUW94#T"
+password = "ILovKLO!"
 username = "mrjones"
 transport.connect(username=username, password=password)
 

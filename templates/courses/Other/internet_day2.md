@@ -8,10 +8,16 @@
 # BE HERE NOW
 
 ## Be here now
-Class will start in 5 minutes. We'll start with the quiz.
+I'll start class in 5 minutes. We'll start with the "reading" quiz.
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hso3oR8PJss?si=i5uHSvZXJ8no66M2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Quote to ponder:
+
+"People who use the Internet (or for that matter, who make long-distance phone calls) but who don't know about wires are just like the millions of complacent motorists who pump gasoline into their cars without ever considering where it came from or how it found its way to the corner gas station. That works only until the political situation in the Middle East gets all screwed up, or an oil tanker runs aground on a wildlife refuge. In the same way, **it behooves wired people to know a few things about wires** - how they work, where they lie, who owns them, and what sorts of business deals and political machinations bring them into being." 
+
+Neal Stephenson, 1996
 
 
 # Web Development - Psychology Research
@@ -27,7 +33,14 @@ Class will start in 5 minutes. We'll start with the quiz.
 
 ![FNIRS](../images/fnirs.jpg)
 
+# Test Answers
+
+## IT Crowd - The Internet
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iDbyYGrswtg?si=YXmyQ0rTlubt2Xk-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 # Client-Server Model
+
+## 
 
 ## Client-Server Model
 ![](../images/client_server.png)
@@ -36,6 +49,9 @@ Class will start in 5 minutes. We'll start with the quiz.
 ![](../images/data_center.jpeg)
 
 # How did people communicate before the internet?
+
+## Runners
+![](../images/marathon.jpg)
 
 ## Pigeons
 ![](../images/pigeon.jpeg)

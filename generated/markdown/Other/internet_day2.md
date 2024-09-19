@@ -30,7 +30,14 @@ Neal Stephenson, 1996
 
 ![FNIRS](../images/fnirs.jpg)
 
+# Test Answers
+
+## IT Crowd - The Internet
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iDbyYGrswtg?si=YXmyQ0rTlubt2Xk-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 # Client-Server Model
+
+## 
 
 ## Client-Server Model
 ![](../images/client_server.png)
@@ -39,6 +46,9 @@ Neal Stephenson, 1996
 ![](../images/data_center.jpeg)
 
 # How did people communicate before the internet?
+
+## Runners
+![](../images/marathon.jpg)
 
 ## Pigeons
 ![](../images/pigeon.jpeg)

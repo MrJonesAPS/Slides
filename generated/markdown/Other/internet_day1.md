@@ -30,7 +30,13 @@ Neal Stephenson, 1996
 
 ![FNIRS](../images/fnirs.jpg)
 
+# Test Answers
+
+## IT Crowd - The Internet
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iDbyYGrswtg?si=YXmyQ0rTlubt2Xk-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 # Client-Server Model
+
 
 ## Client-Server Model
 ![](../images/client_server.png)
@@ -39,6 +45,9 @@ Neal Stephenson, 1996
 ![](../images/data_center.jpeg)
 
 # How did people communicate before the internet?
+
+## Runners
+![](../images/marathon.jpg)
 
 ## Pigeons
 ![](../images/pigeon.jpeg)
@@ -64,20 +73,6 @@ Note the instructions in small print: "Sender of the message should order it rep
 
 # The Internet
 
-## Discussion
-How do we think today's internet is similar to/ different from the switchboard system?
-
-## Centralized vs Decentralized
-:::{class="image-row"}
-:::{.element: class="fragment fade-in"}
-![](../images/centralized.gif)
-:::
-
-:::{.element: class="fragment fade-in"}
-![](../images/distributed.png)
-:::
-:::
-
 ## IP Addresses
 
 ![](../images/ip_address.png)
@@ -85,6 +80,10 @@ How do we think today's internet is similar to/ different from the switchboard s
 ## Going online
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/U2_h-EFlztY?si=TirxL0583v9dnHTr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## The Dialup Sound
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/D1UY7eDRXrs?si=J9zuYPKJYv__zhbo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 # Let's play with the internet
 

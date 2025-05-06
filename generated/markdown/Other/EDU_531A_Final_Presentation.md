@@ -1,6 +1,6 @@
-% Final Presentation
-% Academic Literacy for the  STEM and Career Technology Educator </br>July 12, 2024
-% Mr. Jones | christopher.jones@apsva.us 
+% 
+% 
+% 
 
 
 # About Me

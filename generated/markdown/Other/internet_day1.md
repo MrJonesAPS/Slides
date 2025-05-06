@@ -1,6 +1,6 @@
-% Welcome!
 % 
-% Mr. Jones | Please take a seat anywhere
+% 
+% 
 
 # BE HERE NOW
 

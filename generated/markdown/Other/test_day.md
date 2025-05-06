@@ -1,6 +1,6 @@
-% TEST DAY
 % 
-% Mr. Jones | Find your nametag and take a seat</br>You will need your computer. Close everything except a single Chrome tab
+% 
+% 
 
 
 # Test Day!

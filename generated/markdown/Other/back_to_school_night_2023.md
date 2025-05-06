@@ -1,6 +1,6 @@
-% Back to School Night
 % 
-% Mr. Jones | 2023</br>Please find your student's nametag!</br>All information (including course syllabi and these slides) on whscs.net
+% 
+% 
 
 
 

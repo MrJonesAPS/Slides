@@ -1,6 +1,6 @@
-% EDIS 5025 Sample Lesson
-% Unit 2: The Internet. Day 2
-% Mr. Jones | IT Fundamentals
+% 
+% 
+% 
 
 # Warm Up
 

@@ -1,6 +1,6 @@
-% APS Computer Science Classes
 % 
-% Mr. Jones | 2023
+% 
+% 
 
 
 
